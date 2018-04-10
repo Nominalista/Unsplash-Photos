@@ -1,0 +1,23 @@
+.PhotoListScreen {
+    padding: 20px;
+}
+
+.PhotoListScreen .Title {
+    font-weight: 500;
+}
+
+.PhotoListScreen ul {
+    list-style: none;
+    padding-left: 0;
+    width: 640px;
+    margin: auto;
+    border: 1px solid #aaa;
+}
+
+.PhotoListScreen li {
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    padding-top: 20px;
+}
+
+
