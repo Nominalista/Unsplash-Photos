@@ -2,9 +2,9 @@ import unsplashService from '../../services/unsplash';
 
 // Types
 
-export const RETRIEVE_PHOTO_REQUESTED = 'photos.RETRIEVE_PHOTO_REQUESTED';
-export const RETRIEVE_PHOTO_DONE = 'photos.RETRIEVE_PHOTO_DONE';
-export const RETRIEVE_PHOTO_FAILED = 'photos.RETRIEVE_PHOTO_FAILED';
+export const RETRIEVE_PHOTO_REQUESTED = 'photoDetail.RETRIEVE_PHOTO_REQUESTED';
+export const RETRIEVE_PHOTO_DONE = 'photoDetail.RETRIEVE_PHOTO_DONE';
+export const RETRIEVE_PHOTO_FAILED = 'photoDetail.RETRIEVE_PHOTO_FAILED';
 
 // Epics
 
