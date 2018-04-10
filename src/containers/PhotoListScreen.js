@@ -38,7 +38,7 @@ class PhotoListScreen extends Component {
                 rowId={photoId}
                 onClick={this.onRowClick.bind(this)}>
                 <img src={photo.urls.thumb} alt={photo.description}/>
-                <h3>{photo.user.name}</h3>
+                <p>{photo.user.name}</p>
             </ListRow>
         );
     }
